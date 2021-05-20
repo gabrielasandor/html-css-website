@@ -169,11 +169,11 @@ html {
   }
 
   .footer {
-    color: #ddd;
+    color: rgb(250, 246, 246);
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: rgb(98, 100, 100);
+    background-color: rgb(124, 126, 126);
   }
 
   .facebooktiktok {
