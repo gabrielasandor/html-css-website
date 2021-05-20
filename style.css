@@ -101,7 +101,7 @@ html {
     right: 10px;
     width: 70px;
     height: 70px;
-    margin: 5px 25px 20px 25px;
+    margin: 55px 25px 20px 25px;
     border-radius: 35px;
   }
 
@@ -159,13 +159,6 @@ html {
   
   .button2:hover {
     background-color: rgb(238, 128, 77);
-    
-  }
-
-  
-
-  .info {
-    display: none;
   }
 
   .footer {
@@ -221,6 +214,10 @@ html {
       justify-content: space-around;
 
     }
+
+    #navimg {
+      margin: 5px 25px 20px 25px;
+    }
     
     .content {
       display: flex;
@@ -245,7 +242,6 @@ html {
       flex-direction: column;
       margin-top: 50px;
       width: 90%;
-     
     }
 
     .largedisplay {
@@ -256,7 +252,7 @@ html {
       display: inline-block;
       overflow: scroll;
       width: 100%;
-      max-height: 850px;
+      max-height:900px;
     }
 
     .info.card {
