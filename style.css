@@ -3,6 +3,10 @@ body {
     background-color: #ebecf0;
 }
 
+html {
+	scroll-behavior: smooth; 
+}
+
 .main {
   width: 100%;
 }
@@ -69,13 +73,15 @@ body {
 }
 
 .navbar {
+    position: sticky;
+	  top: 0;
     display: flex;
     flex-direction: column;
     background-color: #FF5719;
     align-items: center;
     margin-top: -5px;
   }
-  
+
   .navbar a {
     color: black;
     padding: 14px 20px;
@@ -95,7 +101,7 @@ body {
     right: 10px;
     width: 70px;
     height: 70px;
-    margin: 25px;
+    margin: 5px 25px 20px 25px;
     border-radius: 35px;
   }
 
